@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="mi curriculum">
+  <meta name="keywords" content="curriculum, cv, portfolio">
+  <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="formulario.js"></script>
+</head>
+<body>
+  <div class="encabezado">
+    <header id="encabezado">
+      <h1>Damian Aybar</h1>
+      <div class="parrafo-encabezado">
+        <p>Estudiante Universitario</p>
+      </div>
+    </header>
+  </div>
+  <div class="contenido">
+    <section id="barra-lateral">
+      <div id="secundario">
+        <img src="https://github.com/sperloco/tp/blob/9a9544b815f4a57e77620b95113cb8abb0e76f28/foto.jpg" class="foto-de-perfil" alt="Foto de Perfil">
+        <h2>Formación Académica</h2>
+        <ul>
+          <li>Bachiller en bienes y servicios de producción</li>
+          <li>Licenciatura en informática, Universidad del Oeste</li>
+          <li>Tecnicatura Tecnologías Web, Universidad del Oeste</li>
+        </ul>
+        <h3>Otros Conocimientos</h3>
+        <ul>
+          <li>Diseño de Circuito Cerrado de televisión</li>
+          <li>Seguridad y Prevención de Incendios</li>
+        </ul>
+        <h4>Idiomas</h4>
+        <ul>
+          <li>Español Nativo</li>
+          <li>Inglés Intermedio</li>
+          <li>Nivel Oral: básico / Escrito Intermedio</li>
+        </ul>
+      </div>
+      <div id="oferta-laboral">
+        <div class="container">
+          <div class="row justify-content-start">
+            <div class="col-md-12">
+              <div class="card mt-5">
+                <div class="card-header">
+                  <h4>Envie su oferta Laboral</h4>
+                </div>
+                <div class="card-body custom-form-container">
+                  <form onsubmit="return validarFormulario()">
+                    <div class="form-group">
+                      <label for="Empresa">Empresa:</label>
+                      <input type="text" id="Empresa" required><br>
+                    </div>
+                    <div class="form-group">
+                      <label for="nombre">Nombre:</label>
+                      <input type="text" id="nombre" required><br>
+                      <label for="apellido">Apellido:</label>
+                      <input type="text" id="apellido" required><br>
+                      <label for="sueldo">Sueldo:</label>
+                      <input type="number" id="sueldo" required><br>
+                      <label for="moneda">Moneda:</label>
+                      <select id="moneda">
+                        <option value="ARS">ARS</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                      </select><br>
+                      <input type="submit" value="Guardar">
+                    </div>
+                  </form>
+                  <div id="datos-container"></div>
+                  <button onclick="abrirNuevaPestana()">Ver Datos</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sobre-mi">
+      <h2>Sobre Mí</h2>
+      <p>Soy un estudiante universitario de informática con habilidades en análisis y planificación de trabajo en equipo.
+        También he desarrollado habilidades de liderazgo que he adquirido durante mi experiencia laboral. Me apasiona la informática y me gustaría hacer prácticas en una empresa de desarrollo, para ampliar mis conocimientos en esta área.</p>
+      <br>
+    </section>
+    <section id="experiencia-laboral">
+      <div class="experiencia">
+        <h2>Experiencia Laboral</h2><br>
+        <h3>Hoken Seguridad S.A</h3><br>
+        <div class="experiencia-hoken">
+          <p>Descripción del trabajo realizado: Supervisor Técnico</p>
+          <p>Fecha de inicio: 02/03/2023 - Actualidad</p>
+        </div>
+        <h4>Securitas Argentina S.A</h4><br>
+        <div class="experiencia-securitas">
+          <p>Descripción del trabajo realizado: Supervisor de Central de Monitoreo</p>
+          <p>Fecha de inicio: 07/03/2022 - Fecha de finalización: 01/03/2023 </p>
+        </div>
+        <h5>Alega Seguridad S.A</h5><br>
+        <div class="experiencia-alega">
+          <p>Descripción del trabajo realizado: Encargado de Edificio</p>
+          <p>Fecha de inicio 01/03/2013 - Fecha de finalización: 05/03/2022</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer class="pie">
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com/damian.aybar?mibextid=ZbWKwL"><img src="" alt="Facebook"></a>
+      <a href="https://twitter.com/aybar_damian"><img src="" alt="Twitter"></a>
+      <a href="https://www.instagram.com/"><img src="" alt="Instagram"></a>
+      <a href="https://ar.linkedin.com/in/damian-aybar-926648138?original_referer=https%3A%2F%2Fwww.google.com.ar%2F"><img src="" alt="LinkedIn"></a>
+    </div>
+    <br>
+    <p>© 2023 Damian Aybar | Todos los derechos reservados Tel: 1153795264</p>
+  </footer>
+</body>
+</html>
+
+
+

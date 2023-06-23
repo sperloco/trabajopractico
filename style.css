@@ -1,0 +1,199 @@
+/* body */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://c.wallhere.com/photos/73/c7/stars_forest_landscape_nightscape_Milky_Way_trees_path_grass-1490491.jpg!d);
+}
+
+/* Estilos de imágenes */
+img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Estilo del encabezado */
+.encabezado {
+  float: right;
+  width: 60%;
+  height: 1%;
+  margin: 0px;
+  padding: 0px;
+  color: aliceblue;
+}
+
+#encabezado {
+  margin: 0px;
+  padding: 1px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.parrafo-encabezado p {
+  text-align: center;
+}
+
+/* contenido principal */
+.contenido {
+  margin-top: 0%;
+}
+
+/* estilo barra lateral */
+#barra-lateral {
+  float: left;
+  width: 25%;
+  height: 50%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: brown;
+}
+
+/* seccion secundaria */
+#secundario h2 {
+  color:black;
+}
+
+#secundario ul:last-child,
+.custom-form-container {
+  margin-bottom: auto;
+  padding-bottom: 0px;
+}
+
+#secundario ul li {
+  margin-bottom: 5px;
+}
+
+/* estilo "Sobre mí" */
+#sobre-mi {
+  float: left;
+  width: 68.6%;
+  height: 150px;
+  color: aliceblue;
+  text-decoration: none;
+  text-align: justify;
+}
+
+/* estilo "Experiencia laboral" */
+#experiencia-laboral {
+  float: left;
+  width: 68.6%;
+  height: 150px;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  text-decoration: underline
+}
+
+.experiencia {
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos del formulario*/
+.custom-form-container {
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.custom-form-container h4 {
+  color: #333;
+  text-align: center;
+}
+
+.custom-form-container label {
+  font-weight: bold;
+  color: #555;
+}
+
+.custom-form-container .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.custom-form-container input[type="text"],
+.custom-form-container input[type="email"],
+.custom-form-container input[type="number"],
+.custom-form-container select {
+  width: 50%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.custom-form-container input[type="submit"] {
+  width: auto;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.custom-form-container input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* estilo footer */
+.pie {
+  position: fixed;
+  bottom: 0; 
+  width: 75%;
+  height: 20%; 
+  background-color: darkslategray;
+  text-align: center;
+  padding-top: 15px;
+  margin-left: 26.3%; 
+}
+
+/* estilo encabezado */
+h1 {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+h3,
+h4,
+h5 {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-indent: 20px
+}
+
+/* Estilos de los párrafos */
+.experiencia-alega p {
+  font-size: 15px;
+  text-indent: 50px
+}
+.experiencia-securitas p {
+  font-size: 15px;
+  text-indent: 50px
+}
+.experiencia-hoken p {
+  font-size: 15px;
+  text-indent: 50px
+}
+
+/* Fuente de los enlaces de redes sociales */
+.redes-sociales a {
+  color: white;
+}
+
+/* Ordenar los datos guardados de forma manual */
+#tablaDatos th {
+  cursor: pointer;
+}
